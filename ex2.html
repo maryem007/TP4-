@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .l1{position: absolute;}
+        td{padding: 10px;}
+    </style>
+</head>
+<body>
+    <form action="traitement.php" method="post">
+        <table width="50%">
+            <tr>
+                <td><label>Votre pseudo   </label></td>
+                <td><input type="text" name="ps" value=""></td>
+            </tr>
+            <tr>
+                <td><label>Votre mot de passe  </label></td>
+                <td><input type="password" name="mp" value=""></td>
+            </tr>
+            <tr>
+            <td><label>Vos raisons de vous inscrire sur ce site </label></td>
+            <td><input type="textarea" name="r" value=""></td>
+            </tr>
+            <tr>
+                <td class="l1"><label >OS préféré</label></td>
+                <td>
+                    <input type="radio" name="a" value="Windows XP"><label>Windows XP</label><br>
+                    <input type="radio" name="a" value="Windows Vista"><label>Windows Vista</label> <br>
+                    <input type="radio" name="a" value="Mac OSX">Mac OSX<br>
+                    <input type="radio" name="a" value="Linux">Linux<br>
+                    <input type="radio" name="a" value="Autre">Autre
+                </td>
+            </tr>
+            <tr>
+                <td class="l1"><label class="l1">Vous possédez</label></td>
+                <td>
+                    <input type="checkbox" name="" value=""><label>Un ordinateur de bureau</label><br>
+                    <input type="checkbox" name="" value=""><label>Un portable</label><br>
+                    <input type="checkbox" name="" value=""><label>Un netbook</label><br>
+                    <input type="checkbox" name="" value=""><label>Une tablette(pad)</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td><label>votre profession </label></td>
+                <td>
+                    <select name="pro">
+                        <option value="">Chomeur</option><br>
+                        <option value="">Etudiant</option><br>
+                        <option value="">Fonctionnaire</option><br>
+                        <option value="">Privé</option><br>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="s'inscrire"></td>
+            </tr>
+        </table>   
+    </form>
+
+
+</body>
+</html>

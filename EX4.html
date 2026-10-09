@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <form action="traitement.php" method="post">
+            <fieldset>
+                <legend>Votre identité</legend>
+                <label>Nom</label>
+                <input type="number" name="name" value=""><br>
+                <label>Email</label>
+                <input type="mail" name="mail" value=""><br>
+                <label>téléphone</label>
+                <input type="tel" name="tel" value=""><br>
+            </fieldset>
+            <fieldset>
+                <legend> adresse de livraison</legend>
+                <ol>
+                    <li>
+                        <label>adresse</label>
+                        <input type="textarea" name="ad" value="">
+                    </li>
+                    <li>
+                        <label>code postal</label>
+                        <input type="number" name="cp" value="">
+                    </li>
+                    <li>
+                        <label>pays</label>
+                        <input type="text" name="p" value="">
+                    </li>
+                </ol>
+            </fieldset>
+            <fieldset>
+                <legend> information CB</legend>
+                <ol>
+                    <li><fieldset>
+                    <legend>Type de carte bancaire</legend>
+                    <ol>
+                        <li><input type="radio" name="x" value=""><label>visa</label></li>
+                        <li><input type="radio" name="x" value=""><label>AmEx</label></li>
+                        <li><input type="radio" name="x" value=""><label>Mastercard</label></li>
+                    </ol>
+                </fieldset>
+                <li>
+                    <label>N° de carte</label>
+                    <input type="number" name="name" value=""><br>
+                </li>
+                <li>
+                    <label>Code sécurité</label>
+                    <input type="password" name="name" value=""><br>
+                </li>
+                <li>
+                    <label>Nom du porteur</label>
+                    <input type="number" name="name" placeholder="meme nom que sur la carte"><br>
+                </li>
+                </ol>
+            </fieldset></li>
+            <fieldset>
+                <input type="submit" value="j'achète !">
+            </fieldset>
+       </form>
+</body>
+</html>

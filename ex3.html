@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <form action="traitement.php" method="post">
+            <table width="50%">
+                <tr>
+                    <td><label>Num cin</label></td>
+                    <td><input type="number" name="cin" value="" maxlength="8"></td>
+                </tr>
+                <tr>
+                    <td><label>nom et prénom </label></td>
+                    <td><input type="text" name="np" value="" maxlength="40"></td>
+                </tr>
+                <tr>
+                    <td><label>date et heure de naissance  </label></td>
+                    <td><input type="datetime-local" name="" value=""></td>
+                </tr>
+                <tr>
+                    <td><label>moyenne de l'année dernière </label></td>
+                    <td><input type="range" name="np" value="" min="0" max="20"></td>
+                </tr>
+                <tr>
+                    <td><label>date d'inscription </label></td>
+                    <td><input type="date" name="np" value="" ></td>
+                </tr>
+                <tr>
+                    <td><label>parcours à suivre </label></td>
+                    <td>
+                        <select>
+                            <optgroup label="TC">
+                                <option>1ére</option>
+                                <option>2éme</option>
+                                <option>3éme</option>
+                            </optgroup>
+                            <optgroup label="SEM">
+                                <option>1ére</option>
+                                <option>2éme</option>
+                                <option>3éme</option>
+                            </optgroup>
+                            <optgroup label="DSI">
+                                <option>1ére</option>
+                                <option>2éme</option>
+                                <option>3éme</option>
+                            </optgroup>
+                            <optgroup label="RSI">
+                                <option>1ére</option>
+                                <option>2éme</option>
+                                <option>3éme</option>
+                            </optgroup>
+
+                        </select>
+                    </td>
+                </tr>
+            </table>
+       </form>
+</body>
+</html>
