@@ -1,0 +1,145 @@
+/* Mise en forme générale */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background-color: #202c45;
+    color: white;
+    padding: 15px;
+    position: relative;
+}
+
+.logo {
+    display: inline-block;
+    margin: 5px 30px 5px 10px;
+    color:  rgb(255, 102, 0);
+    float: left;
+}
+
+/* Section accueil */
+header {
+    background-color: #ffe5d9;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+
+/* Titres */
+.titre {
+    text-align: center;
+    margin: 35px 0 25px;
+    color: #202c45;
+}
+
+/* Boxes produits */
+.pr{
+    display: inline-block;
+    border: none;
+    margin: 0 5%;
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    box-shadow: 0 0 3px black;
+    border-radius: 5px;
+}
+
+
+/* Catégories */
+.x{
+    border-left: rgb(255, 102, 0);
+    background-color: white;
+    height: 100px;
+    width: 900px;
+    margin: 20px auto 40px;
+    border-radius: 5px;
+}
+.x ul{
+    display: block;
+    margin: 0 20%;
+}
+/*liste des prix */
+
+/* Formulaire */
+form {
+    width: 60%;
+    margin: 20px auto 40px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+    position: relative;
+}
+
+
+
+/* Pied de page */
+footer {
+    background-color: #202c45;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+button {
+    background-color: rgb(255, 102, 0);
+    border-radius: 5px;
+    color: white;
+    height: 35px;
+    width: 170px;
+    border-style: none;
+}
+li{
+    display: inline;
+    margin: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.pr img{
+    width: 200px;
+    height: 210px;
+    object-fit: contain;
+}
+table{
+    border: 1px solid black; 
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+    width: 60%;
+    height: 200px;
+    margin: auto;
+}
+th,td{
+    border: 1px solid black;
+    
+}
+th{
+    background-color: #222a3a;
+    color: white;
+}
+td{
+    color: black;
+}
+h2{
+    text-align: center;
+}
+.orng{
+    color: rgb(255, 102, 0);
+}
+.pr input[type="button"] {
+    background-color:  rgb(255, 102, 0);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 200;
+    color: white;
+}
